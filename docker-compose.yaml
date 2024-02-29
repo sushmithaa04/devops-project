@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  images:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sushmithaa04/project:v1
+    ports:
+      - "8282:80"
