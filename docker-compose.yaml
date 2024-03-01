@@ -5,6 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: sushmithaa04/project:v1
+    image: sushmithaa04/project:v2
     ports:
-      - "8282:80"
+      - "8283:80"
